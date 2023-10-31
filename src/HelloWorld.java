@@ -13,14 +13,16 @@ public class HelloWorld {
         float myNumber = 3;
         System.out.println(myNumber);
 
-        int x = 5;
-        System.out.println(x++);
-        System.out.println(x);
+//        int x = 5;
+//        System.out.println(x++);
+//        System.out.println(x);
 
         int x = 5;
         System.out.println(++x);
         System.out.println(x);
-        String myExplainWhy = "The code above works as an increment after the number adding the number by like x + 1...The other code does not work because the order of operations is 1 + x but 1 has not been declared and java requires values to be declared properly before it can execute.";
+        String myExplainWhy = "The code above works as an increment after the number adding the number by like x + 1...The other code does not work because I am trying to declare a variable in the same scope.  In java I cannot declare a variable with the same name in the same scope.  So, if I comment out the first set of code the ++x code executes.";
+
+
     }
 
 }
