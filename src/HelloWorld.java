@@ -31,14 +31,14 @@ public class HelloWorld {
         int xY = 4;
         x += 5;
 
-        int x = 3;
-        int y = 4;
-        y *= x;
-
-        int x = 10;
-        int y = 2;
-        x /= y;
-        y -= x;
+//        int x = 3;
+//        int y = 4;
+//        y *= x;
+//
+//        int x = 10;
+//        int y = 2;
+//        x /= y;
+//        y -= x;
 
         String problem14 = "If I assign a variable to a numerical variable that is larger or smaller than the type it can hold I receive a red warning of a lossy result.  If I increment a numeric variable past the type's capacity, it results in an overflow." + "the example takes 4 bytes of data.";
     }
