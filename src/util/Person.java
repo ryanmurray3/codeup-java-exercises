@@ -1,5 +1,4 @@
-import java.sql.SQLOutput;
-import java.util.Scanner;
+package util;
 
 public class Person {
     private String name;
@@ -29,7 +28,7 @@ public class Person {
         person2.setName("Jane");
         System.out.println(person1.getName());
         System.out.println(person2.getName());
-//        Person person = new Person("John");
+//        util.Person person = new util.Person("John");
 //        System.out.println(person.getName());
 //        person.setName("Jane");
 //        System.out.println(person.getName());
