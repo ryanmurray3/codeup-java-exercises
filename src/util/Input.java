@@ -95,26 +95,28 @@ public class Input {
 
     }
 
+public static class inputTest {
 
-//        public static void main(String[] args) {
-//        Input input = new Input();
-//
-//        System.out.println("Please enter a string: ");
-//        String stringInput = input.getString();
-//        System.out.println("You entered: " + stringInput);
-//
-//        System.out.println("Please enter yes or no: ");
-//        boolean yesNoInput = input.yesNo();
-//        System.out.println("You entered: " + (yesNoInput ? "yes" : "no"));
-//
-//        System.out.println("Please enter an integer between 1 and 10: ");
-//        int intInput = input.getInt(1, 10);
-//        System.out.println("You entered: " + intInput);
-//
-//        System.out.println("Please enter a number between 1.0 and 10.0: ");
-//        double doubleInput = input.getDouble(1.0, 10.0);
-//        System.out.println("You entered: " + doubleInput);
-//    }
+        public static void main(String[] args) {
+            Input inputTest = new Input();
 
+            System.out.println("Please enter a string: ");
+            String stringInput = inputTest.getString();
+            System.out.println("You entered: " + stringInput);
+
+            System.out.println("Please enter yes or no: ");
+            boolean yesNoInput = inputTest.yesNo();
+            System.out.println("You entered: " + (yesNoInput ? "yes" : "no"));
+
+            System.out.println("Please enter an integer between 1 and 10: ");
+            int intInput = inputTest.getInt(1, 10);
+            System.out.println("You entered: " + intInput);
+
+            System.out.println("Please enter a number between 1.0 and 10.0: ");
+            double doubleInput = inputTest.getDouble(1.0, 10.0);
+            System.out.println("You entered: " + doubleInput);
+        }
+
+    }
 }
 
