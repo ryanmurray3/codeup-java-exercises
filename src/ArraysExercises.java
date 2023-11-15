@@ -1,12 +1,18 @@
 
 
 public class ArraysExercises {
+//    int[] numbers = {1, 2, 3, 4, 5};
+//System.out.println(numbers.toString);
+
+
     public static void main(String[] args) {
+//        arrays in java have a fixed length.
         Person[] people = new Person[3];
         people[0] = new Person("John");
         people[1] = new Person("Jane");
         people[2] = new Person("Bob");
 
+//        array.for hit tab to create the loop
         for (Person person : people) {
             System.out.println(person.getName());
         }
